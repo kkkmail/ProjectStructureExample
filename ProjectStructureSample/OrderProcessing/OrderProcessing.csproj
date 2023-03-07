@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Sample.OrderProcessing</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccountManagement\AccountManagement.csproj" />
+    <ProjectReference Include="..\InventoryManagement\InventoryManagement.csproj" />
+    <ProjectReference Include="..\InvoiceGeneration\InvoiceGeneration.csproj" />
+    <ProjectReference Include="..\OrderTracking\OrderTracking.csproj" />
+    <ProjectReference Include="..\PaymentProcessing\PaymentProcessing.csproj" />
+  </ItemGroup>
+
+</Project>

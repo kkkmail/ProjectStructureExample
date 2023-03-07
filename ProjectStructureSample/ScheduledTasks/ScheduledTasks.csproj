@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Sample.ScheduledTasks</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ContentCreation\ContentCreation.csproj" />
+    <ProjectReference Include="..\DataImport\DataImport.csproj" />
+    <ProjectReference Include="..\Email\Email.csproj" />
+    <ProjectReference Include="..\ErrorLogging\ErrorLogging.csproj" />
+    <ProjectReference Include="..\InventoryManagement\InventoryManagement.csproj" />
+    <ProjectReference Include="..\NotificationManagement\NotificationManagement.csproj" />
+    <ProjectReference Include="..\OrderProcessing\OrderProcessing.csproj" />
+    <ProjectReference Include="..\PaymentProcessing\PaymentProcessing.csproj" />
+    <ProjectReference Include="..\RecommendationEngine\RecommendationEngine.csproj" />
+    <ProjectReference Include="..\SalesReporting\SalesReporting.csproj" />
+    <ProjectReference Include="..\SubscriptionManagement\SubscriptionManagement.csproj" />
+  </ItemGroup>
+
+</Project>
